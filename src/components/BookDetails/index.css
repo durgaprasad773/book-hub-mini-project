@@ -1,0 +1,231 @@
+.book-details-main-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f5f7fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  .book-details-cover-pic-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .book-details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .book-details-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .book-details-cover-pic {
+    width: 235px;
+    height: 274px;
+    top: 80px;
+    left: 62px;
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0px;
+  }
+  .book-details-title {
+    font-family: Roboto;
+    color: #334155;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+  }
+  .book-details-author {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+
+    color: #475569;
+  }
+  .book-details-rating {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #475569;
+  }
+  .book-details-star-icon {
+    color: #fbbf24;
+    width: 24px;
+    height: 24px;
+    top: 450px;
+    left: 198px;
+    gap: 0px;
+    opacity: 0px;
+
+    padding-top: 8px;
+  }
+  .book-details-status {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #475569;
+  }
+  .book-details-status-view {
+    font-family: Roboto;
+    color: #0284c7;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+  }
+  .break-line {
+    margin-top: 25px;
+    border: 1px solid #94a3b8;
+    width: 80%;
+  }
+  .book-details-about-author-container {
+    width: 80%;
+  }
+  .about-heading {
+    font-family: Roboto;
+    color: #334155;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .about-description {
+    font-family: Roboto;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+
+    color: #475569;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .book-details-container {
+    width: 1140px;
+    height: 726px;
+    top: 153px;
+    left: 150px;
+    gap: 0px;
+    border-radius: 16px;
+    opacity: 0px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .book-details-cover-pic-content-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .book-details-cover-pic {
+    width: 235px;
+    height: 274px;
+    top: 217px;
+    left: 427px;
+    gap: 0px;
+    border-radius: 14.13px;
+    opacity: 0px;
+    margin-right: 25px;
+  }
+  .book-details-content-container {
+    margin-left: 15px;
+  }
+  .book-details-title {
+    font-family: Roboto;
+    color: #334155;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: left;
+  }
+  .book-details-author {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    color: #475569;
+  }
+  .book-details-rating {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    color: #475569;
+  }
+  .book-details-star-icon {
+    color: #fbbf24;
+    width: 32px;
+    height: 32px;
+    top: 370px;
+    left: 849px;
+    gap: 0px;
+    opacity: 0px;
+    padding-top: 8px;
+  }
+  .book-details-status {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    color: #475569;
+  }
+  .book-details-status-view {
+    font-family: Roboto;
+    color: #0284c7;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+  }
+  .break-line {
+    margin-top: 25px;
+    border: 1px solid #94a3b8;
+    width: 80%;
+  }
+  .book-details-about-author-container {
+    width: 80%;
+  }
+  .about-heading {
+    font-family: Roboto;
+    color: #334155;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .about-description {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #475569;
+  }
+}

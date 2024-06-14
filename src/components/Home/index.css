@@ -1,0 +1,331 @@
+* {
+  margin: 0px;
+}
+.home-container {
+  width: 100vw;
+  height: 100vh;
+  top: 12042px;
+  left: 4096px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #f5f7fa;
+}
+.home-heading {
+  font-family: Roboto;
+  padding-top: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: left;
+  color: #1e293b;
+  padding-left: 15px;
+}
+.home-description {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #475569;
+  padding-left: 15px;
+}
+
+@media (min-width: 768px) {
+  .home-container {
+    width: 100vw;
+    height: 100vh;
+    top: 9322px;
+    left: 6356px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .home-content-container {
+    margin-bottom: 100px;
+  }
+  .home-heading {
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 64px;
+    text-align: left;
+    color: #1e293b;
+    padding-top: 25px;
+  }
+  .home-description {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    color: #475569;
+
+    padding-top: 15px;
+
+    padding-bottom: 20px;
+  }
+}
+
+.home-top-related-books-container {
+  width: 360px;
+  height: 286px;
+  top: 284px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #ffffff;
+  margin-top: 20px;
+  margin: auto;
+}
+.mobile-find-books-btn {
+  display: block;
+  width: Hug (104px) px;
+  height: Hug (36px) px;
+  padding: 10px 20px 10px 20px;
+  gap: 8px;
+  border: 0px;
+  border-radius: 4px;
+  opacity: 0px;
+  background-color: #0284c7;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.find-books-btn {
+  display: none;
+}
+.top-related-books-heading {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  color: #1e293b;
+  padding-top: 22px;
+}
+
+@media (min-width: 768px) {
+  .mobile-find-books-btn {
+    display: none;
+  }
+  .home-top-related-books-container {
+    margin-top: 25px;
+    width: 1240px;
+    height: 424px;
+    top: 309px;
+    left: 100px;
+    gap: 0px;
+    border-radius: 10px;
+    opacity: 0px;
+    background-color: #ffffff;
+  }
+  .button-heading-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 20px;
+  }
+  .find-books-btn {
+    display: block;
+    width: 130px;
+    height: 40px;
+    font-weight: 500;
+    font-family: roboto;
+    padding: 10px 20px 10px 20px;
+    gap: 8px;
+    border-radius: 4px;
+    opacity: 0px;
+    background-color: #0284c7;
+    color: #ffffff;
+    border: 0px;
+    cursor: pointer;
+  }
+  .top-related-books-heading {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    color: #1e293b;
+  }
+}
+
+.loader-container {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.failure-home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-failure-image {
+  width: 238px;
+  height: 117.16px;
+  padding-top: 10px;
+  gap: 0px;
+  opacity: 0px;
+  padding-bottom: 15px;
+}
+.home-failure-description {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #475569;
+}
+.home-failure-btn {
+  width: 70px;
+  height: 35px;
+  top: 512px;
+  left: 140px;
+  gap: 0px;
+  opacity: 0px;
+  border-radius: 5px;
+  background-color: #0284c7;
+  color: #ffffff;
+  border: 0px;
+}
+
+@media (min-width: 768px) {
+  .home-failure-image {
+    width: 469px;
+    height: 200px;
+
+    opacity: 0px;
+  }
+  .home-failure-description {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: left;
+    color: #475569;
+  }
+  .home-failure-btn {
+    width: Hug (75px) px;
+    height: Hug (32px) px;
+    top: 653px;
+    left: 683px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+    background-color: #0284c7;
+    color: #ffffff;
+    border: 0px;
+    margin-top: 10px;
+  }
+}
+.home-book-shelve-link {
+  text-decoration: none;
+  text-decoration-style: none;
+  list-style-type: none;
+}
+
+.slick-container {
+  margin-top: 35px;
+  width: 100%;
+  text-align: center;
+  align-content: center;
+}
+.slick-item-container {
+  list-style: none;
+  width: 146px;
+  height: 120px;
+  top: 336px;
+  left: 28px;
+  gap: 0px;
+  border-radius: 2px;
+  opacity: 0px;
+  width: 100%;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+.slick-item-cover-pic {
+  width: 146px;
+  height: 99px;
+  top: 336px;
+  left: 28px;
+  gap: 0px;
+  border-radius: 2px;
+  opacity: 0px;
+}
+.slick-item-title {
+  font-family: Roboto;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: center;
+  padding-top: 5px;
+  color: #334155;
+}
+.slick-item-author-name {
+  font-family: Roboto;
+  padding-top: 5px;
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 12px;
+  text-align: center;
+  color: #475569;
+}
+
+@media (min-width: 768px) {
+  .slick-container {
+    width: 100%;
+    padding-right: 25px;
+  }
+  .slick-item-container {
+    list-style: none;
+    width: 350px;
+    height: 292px;
+    border-radius: 7px;
+    opacity: 0px;
+    background-color: #ffffff;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 16px;
+  }
+  .slick-item-cover-pic {
+    width: 250px;
+    height: 200px;
+    border-radius: 4px;
+    opacity: 0px;
+  }
+  .slick-item-title {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    color: #1e293b;
+    padding-top: 10px;
+  }
+  .slick-item-author-name {
+    font-family: Roboto;
+    text-decoration: none;
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    color: #475569;
+  }
+}

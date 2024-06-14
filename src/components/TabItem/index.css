@@ -1,0 +1,53 @@
+.tab-btn-container {
+  list-style: none;
+  margin: 5px;
+  margin-right: 10px;
+}
+.tab-btn {
+  background-color: transparent;
+  border: 1px solid #0284c7;
+  color: #0284c7;
+  font-family: Roboto;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  cursor: pointer;
+}
+.active-btn {
+  background-color: #0284c7;
+  color: #ffffff;
+  border: 0px;
+  font-family: Roboto;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .tab-btn {
+    background-color: transparent;
+    color: #475569;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    border: 0px;
+  }
+  .active-btn {
+    background-color: transparent;
+    color: #0284c7;
+    border: 0px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    border: 0px;
+  }
+}
